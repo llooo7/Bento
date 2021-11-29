@@ -11,7 +11,7 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Luka',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
@@ -29,8 +29,8 @@ const CONFIG = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '46.4',
+  defaultLongitude: '15.55',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -48,13 +48,13 @@ const CONFIG = {
       id: '2',
       name: 'Mail',
       icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      link: 'https://mail.google.com/mail/u/0/#inbox',
     },
     {
       id: '3',
-      name: 'Todoist',
+      name: 'Keep',
       icon: 'trello',
-      link: 'https://todoist.com',
+      link: 'https://keep.google.com/u/0/',
     },
     {
       id: '4',
@@ -72,7 +72,7 @@ const CONFIG = {
       id: '6',
       name: 'Odysee',
       icon: 'youtube',
-      link: 'https://odysee.com/',
+      link: 'https://www.youtube.com/',
     },
   ],
 
@@ -88,38 +88,47 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Playlist',
+        link: 'https://open.spotify.com/playlist/3AN9nyLIdSGcU4dFtKFA4b?si=5eada916970446e6',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Spacewave',
+        link: 'https://open.spotify.com/playlist/4sgUux9hmykyWYmVoe4W6p?si=4c4940920e424fce',
       },
       {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Chill',
+        link: 'https://open.spotify.com/playlist/3I4X0MKKpQ4bmSixKTZMJW?si=6c45708b0b424cd6',
       },
       {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Discover',
+        link: 'https://open.spotify.com/playlist/37i9dQZEVXcWan9v8FVnLv?si=f791bc923cb14612',
       },
+      {
+        name: 'Lofi',
+        link: 'https://open.spotify.com/playlist/0vvXsWCC9xrXsKd4FyS8kM?si=f3de3612c88a48d4',
+      },
+      
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Maps',
+        link: 'https://www.google.com/maps',
       },
       {
-        name: 'Figma',
-        link: 'https://figma.com/',
+        name: 'Desmos',
+        link: 'https://www.desmos.com/calculator',
       },
       {
-        name: 'Dribbble',
+        name: 'OctoPrint',
         link: 'https://dribbble.com',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Photos',
+        link: 'https://photos.google.com/',
+      },
+      {
+        name: 'Messenger',
+        link: 'https://www.messenger.com/',
       },
     ],
   },
